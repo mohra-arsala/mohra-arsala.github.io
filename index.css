@@ -5,7 +5,6 @@
     padding: 20px;
     width: 80%;
     margin-top: 20px;
-    /* height:500px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: auto;
     overflow: hidden;
@@ -13,9 +12,15 @@
 }
 
 #about {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
+.exp-heading {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    
+}
 
 
 p{
@@ -26,15 +31,12 @@ p{
 .picsocial {
     padding-top: 20px;
     width: 400px;
-    /* flex-wrap: wrap; */
     float: left;
-    /* float: inline-start; */
 }
 
 .quickinfo {
     padding-top: 20px;
     text-align: left;
-    /* float: right; */
 }
 
 body {
@@ -48,7 +50,6 @@ img {
     max-width: 60%;
     max-height: 60%;
     border-radius: 8px;
-    /* float: left; */
 }
 
 i {
